@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>auto complete</title>
+</head>
+
+<body>
+  年龄 <span id="age"></span>
+</body>
+<script>
+
+  function getAge(data) {
+    document.getElementById('age').innerHTML = data.age;
+  }
+</script>
+<script src="http://127.0.0.1:3000/js?call=getAge"></script>
+
+</html>
